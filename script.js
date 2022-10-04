@@ -19,7 +19,7 @@ function generatePassword() {
   var useSpecials = window.confirm("Would you like to include SPECIAL characters in your password?");
   var useNumbers = window.confirm("Would you like to include NUMBER characters in your password?");
   
-  if(!upperCase && !lowerCase && !specials && !numbers){
+  if(!useUpperCase && !useLowerCase && !useSpecials && !useNumbers){
     window.alert("Please select at least one category of criteria or Brent will find you.>:)");
     return;
   }
